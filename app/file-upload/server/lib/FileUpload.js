@@ -29,6 +29,8 @@ import { Messages } from '../../../models/server';
 import { AppEvents, Apps } from '../../../apps/server';
 import { streamToBuffer } from './streamToBuffer';
 
+import './storjtest';
+
 const cookie = new Cookies();
 let maxFileSize = 0;
 
